@@ -1,0 +1,57 @@
+play:
+  # Описание команды и опций
+  description:
+    command: "Запускает музыку в прослушивание!"
+    option:
+      song: "Вставьте ссылку/название песни"
+  embed:
+    title: "%music-play-status% | %music-name%"
+    description: | ## %music-progress-bar% выводится автоматический на следующей строке!
+      %music-progress-bar%
+    footer: "Время вызова: %current-time% | VoidBot %version:BOT% :3"
+    fields:
+      time:
+        video:
+          title: "Время"
+          description: "%music-current-time% / %music-max-time%" ## Выводится в формате ДД:ЧЧ:ММ:СС или ЧЧ:ММ:СС или ММ:СС (Формат автоматический меняется от длины трек
+        stream:
+          title: "Время"
+          description: "В прямом эфире"
+      author:
+        title: "Автор"
+        description: "%music-author%"
+      views:
+        title: "Просмотры"
+        description: "%music-views%"
+      like:
+        title: "Понравилось"
+        description: "%music-like-count%"
+      date-created:
+        title: "Опубликовано"
+        description: "%music-date-created%" ## Выводится в формате ДД:ММ:ГГГГ
+      link:
+        title: "Ссылка"
+        description: "[`*тык :3*`](%music-link%)"
+      volume:
+        title: "Громкость"
+        description: "%music-volume%"
+    button: "soon"
+  message:
+    load-playlist: "Плейлист %music-playlist-name% загружен в очередь (%music-playlist-size% треков)"
+  status:
+    sound:
+      true: "Воспроизведение"
+      false: "Пауза"
+
+  error:
+    no-found-voice: "Простите я не нашел голосовой канал с вами! (Вы точно в голосовом канале?)"
+    no-found-me: "По неизвестной для меня причины я не смог подключится к голосовому каналу простите меня :c попробуйте еще раз чуть позже и свяжитесь с администрацией!"
+    no-found-music: "Я не смог найти музыку если она действительно есть укажите ссылку дабы я смог ее найти"
+    no-found-queue: "Очередь не найдена"
+    no-has-permission: "Произошла ошибка я не могу зайти в голосовой канал! Попросите администратора чтобы он дал мне право зайти в голосовой канал"
+    no-dm: "Данную команду нельзя использовать в личных сообщениях!"
+    no-matches: "Нет совпадений"
+    no-support-platform: |
+      Данная платформа не поддерживается!
+      Список поддерживаемых платформ: %music-platform-support%
+    other: "%error-code%"
