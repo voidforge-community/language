@@ -1,6 +1,7 @@
 # Конфигурация v3 создан 26.10.2025
 help:
-  description-command: "Справочник по коду"
+  description:
+    command: "Справочник по коду"
   # Ембед команды /help
   command:
     embed:
@@ -16,7 +17,7 @@ help:
           title: "Команды"
           description: "Показывает все возможные команды"
   # Ембеды после выпадающего списка
-  interact:
+  interacts:
     info:
       embed:
         title: "Информация о VoidBot"
