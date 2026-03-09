@@ -1,0 +1,13 @@
+unmute:
+  description:
+    command: "снимает мьют с пользователя"
+    option:
+      target-user: "Выбрать пользователя с которого снять мьют"
+  embed:
+    title: "Мьют успешно снят!"
+    description: "Модератор %author% снял мьют с пользователя %target-user%"
+    footer: "Время вызова: %current-time% | VoidBot %version:BOT% :3"
+  error:
+    user-not-found: "Пользователь не найден"
+    no-muted: "пользователь не замьючен"
+    other: "%code%"

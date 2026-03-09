@@ -1,0 +1,13 @@
+unban:
+  description:
+    command: "Снимает великий молот бана с пользователя"
+    option:
+      target-user: "Мутит выбранного пользователя"
+  embed:
+    title: "Пользователь успешно размучен!"
+    description: "Модератор %author% разбанил пользователя %target-user% по причине %reason%"
+    footer: "Время вызова: %current-time% | VoidBot %version:BOT% :3"
+  error:
+    user-not-found: "Пользователь не найден"
+    no-banned: "Данный пользователь не забанен"
+    other: "%code%"
