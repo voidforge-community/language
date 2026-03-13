@@ -1,0 +1,6 @@
+checklist:
+  title: "Обсуждение изменений"
+  embed:
+    title: "Обсуждение изменений"
+    description: ""
+    footer: "Время вызова: %current-time% | VoidBot %version:BOT% :3"

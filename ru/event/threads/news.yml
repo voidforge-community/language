@@ -1,0 +1,6 @@
+news:
+  title: "Обсуждение новости"
+  embed:
+    title: "Обсуждение новости"
+    description: ""
+    footer: "Время вызова: %current-time% | VoidBot %version:BOT% :3"
