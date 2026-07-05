@@ -1,0 +1,16 @@
+warn:
+  description:
+    command: "Выдать предупреждение пользователю"
+    option:
+      target-user: "Пользователь для выдачи варна"
+      reason: "Причина варна"
+  embed:
+    title: "Предупреждение"
+    description: "%author% выдал варн %target-user%\nПричина: %reason%"
+    footer: "Модерация | VoidBot"
+  error:
+    low-level-permission:
+      author: "У вас недостаточно прав, чтобы выдать варн этому пользователю."
+      bot: "У бота недостаточно прав, чтобы выдать варн этому пользователю."
+    user-not-found: "Пользователь не найден."
+    other: "Произошла ошибка: %code%"

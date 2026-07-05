@@ -1,0 +1,5 @@
+serverstats:
+  description:
+    command: "Показать аналитику сервера (участники, активность, модерация)"
+    option:
+      period: "Период аналитики: today / week / all"
