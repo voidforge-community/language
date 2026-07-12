@@ -8,6 +8,7 @@ warn:
     title: "Предупреждение"
     description: "%author% выдал варн %target-user%\nПричина: %reason%"
     footer: "Модерация | VoidBot"
+    total-warns: "\nВсего варнов на сервере: **%count%**"
   error:
     low-level-permission:
       author: "У вас недостаточно прав, чтобы выдать варн этому пользователю."

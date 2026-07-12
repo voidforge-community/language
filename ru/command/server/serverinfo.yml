@@ -1,3 +1,32 @@
 serverinfo:
   description:
     command: "Информация о сервере (участники, каналы, аналитика)"
+  embed:
+    title: "Информация о сервере «%server-name%»"
+  field:
+    id: "ID"
+    owner: "Владелец"
+    created: "Создан"
+    members: "Участников"
+    roles: "Ролей"
+    boost: "Tier %tier% (%count% бустов)"
+    channels: "Каналов"
+    channels-text: "Текстовых: **%count%**\n"
+    channels-voice: "Голосовых: **%count%**\n"
+    channels-category: "Категорий: **%count%**"
+    verification: "Уровень проверки"
+    locale: "Локаль"
+    analytics-title: "Аналитика (за всё время)"
+    analytics-messages: "Сообщений: **%count%**\n"
+    analytics-voice: "Войс всего: **%count%**\n"
+    analytics-open-voice: "Открытых войс-сессий: **%count%**"
+    events-title: "События"
+    events-joins: "Входов всего: **%count%**\n"
+    events-bans: "Банов всего: **%count%**\n"
+    events-kicks: "Киков всего: **%count%**"
+    moderation-title: "Модерация всего"
+    moderation-warns: "Варнов: **%count%**\n"
+    moderation-bans: "Банов: **%count%**\n"
+    moderation-mutes: "Мутов: **%count%**"
+  error:
+    render: "Не удалось собрать информацию о сервере."

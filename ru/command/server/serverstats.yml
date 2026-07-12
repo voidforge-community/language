@@ -3,3 +3,32 @@ serverstats:
     command: "Показать аналитику сервера (участники, активность, модерация)"
     option:
       period: "Период аналитики: today / week / all"
+  embed:
+    title: "Аналитика сервера «%server-name%»"
+  field:
+    members-title: "Участники"
+    members-total: "Всего: **%count%**\n"
+    members-new: "Новых за период: **%count%**\n"
+    members-left: "Вышло: **%count%**\n"
+    members-kicks: "Киков: **%count%**\n"
+    members-bans: "Банов: **%count%**\n"
+    members-unbans: "Разбанов: **%count%**"
+    activity-title: "Активность"
+    activity-messages: "Сообщений: **%count%**\n"
+    activity-deleted: "Удалено: **%count%**\n"
+    activity-voice: "Войс всего: **%count%**\n"
+    activity-sessions: "Сессий войса: **%count%**"
+    moderation-title: "Модерация"
+    moderation-warns: "Варнов всего: **%count%**\n"
+    moderation-active-bans: "Активных банов: **%count%**\n"
+    moderation-active-mutes: "Активных мутов: **%count%**"
+    leaderboard-title: "Топ по опыту"
+    leaderboard-empty: "Нет данных"
+    leaderboard-entry: "%rank%. %name% — Ур. %level% (%xp% XP)"
+  footer: "Период: %period% | VoidBot"
+  period:
+    today: "сегодня"
+    week: "последние 7 дней"
+    all: "всё время"
+  error:
+    render: "Не удалось собрать аналитику."
