@@ -1,0 +1,9 @@
+leaderboard:
+  description:
+    command: "Таблица лидеров по опыту, уровню и войс-тайму"
+    option:
+      sort: "Тип сортировки: xp / level / voice"
+  embed:
+    title: "🏆 Таблица лидеров"
+    description: "Топ участников сервера:"
+  empty: "Нет данных для отображения."

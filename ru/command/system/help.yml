@@ -85,4 +85,8 @@ help:
               title: "Опции"
               description: "> %option-command%"
               not-option: "нет опций"
+            subcommands:
+              title: "Подкоманды"
+              description: "> %subcommands%"
+              not-subcommands: "нет подкоманд"
 
