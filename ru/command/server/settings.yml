@@ -1,0 +1,14 @@
+settings:
+  description:
+    command: "Управление настройками"
+  levelup-dm:
+    description:
+      command: "Управление уведомлениями о получении уровня в личных сообщениях"
+      option:
+        enabled: "Включить или выключить уведомления"
+    embed:
+      title: "Настройка уведомлений об уровне"
+      description: "Уведомления о получении уровня в личных сообщениях были **%status%**"
+    status:
+      enabled: "включены"
+      disabled: "отключены"
